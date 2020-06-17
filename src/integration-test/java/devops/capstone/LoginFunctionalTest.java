@@ -89,7 +89,7 @@ public class LoginFunctionalTest {
 	
 	@Test
 	public void paymentSuccess() {
-		 driver.get("http://localhost:6080/ILP_Bookstore/paymentGateway.jsp");	
+		 driver.get("http://localhost:6080/capstone/paymentGateway.jsp");	
 		 WebElement custId = driver.findElement(By.name("custId"));
 	     WebElement cardNo = driver.findElement(By.name("cardNo"));
 	     WebElement amount = driver.findElement(By.name("amount"));
