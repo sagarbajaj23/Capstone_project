@@ -67,7 +67,7 @@ public class LoginFunctionalTest {
         assertTrue(driver.getPageSource().contains("Invalid username or password, Please try again with valid"));
 	}
 	
-	//@Test
+	@Test
 	public void registrationSuccess() {
         driver.get("http://localhost:6080/capstone/register.jsp");
         WebElement firstname = driver.findElement(By.name("firstname"));
@@ -87,7 +87,7 @@ public class LoginFunctionalTest {
         assertTrue(driver.getPageSource().contains("Utility Bill Payment"));
 	}
 	
-	@Test
+	//@Test
 	public void paymentSuccess() {
 		 driver.get("http://localhost:6080/capstone/paymentGateway.jsp");	
 		 WebElement custId = driver.findElement(By.name("custId"));
