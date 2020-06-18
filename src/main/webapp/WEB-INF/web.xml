@@ -13,18 +13,22 @@
 
 	<servlet>
 		<servlet-name>Login</servlet-name>
-		<servlet-class>devops.ilp1.controllerWithoutDb.UserLoginController</servlet-class>
+		<servlet-class>devops.capstone.controllerWithoutDb.UserLoginController</servlet-class>
 	</servlet>
 	
 	<servlet>
 		<servlet-name>Register</servlet-name>
-		<servlet-class>devops.ilp1.controllerWithoutDb.UserRegisterController</servlet-class>
+		<servlet-class>devops.capstone.controllerWithoutDb.UserRegisterController</servlet-class>
 	</servlet>
 	
 	<servlet>
 		<servlet-name>GetPassword</servlet-name>
-		<servlet-class>devops.ilp1.controllerWithoutDb.UserPasswordController</servlet-class>
+		<servlet-class>devops.capstone.controllerWithoutDb.UserPasswordController</servlet-class>
 	</servlet>
+	<servlet>
+                <servlet-name>PaymentGateway</servlet-name>
+                <servlet-class>devops.capstone.controllerWithoutDb.UserPaymentController</servlet-class>
+        </servlet>
 
 	<servlet-mapping>
 		<servlet-name>Login</servlet-name>
@@ -38,4 +42,8 @@
 		<servlet-name>GetPassword</servlet-name>
 		<url-pattern>/GetPassword</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+                <servlet-name>PaymentGateway</servlet-name>
+                <url-pattern>/PaymentGateway</url-pattern>
+        </servlet-mapping>
 </web-app>
