@@ -87,14 +87,14 @@ public class LoginFunctionalTest {
         assertTrue(driver.getPageSource().contains("Utility Bill Payment"));
 	}
 	
-	//@Test
+	@Test
 	public void paymentSuccess() {
 		 driver.get("http://localhost:6080/capstone/paymentGateway.jsp");	
 		 WebElement custId = driver.findElement(By.name("custId"));
 	     WebElement cardNo = driver.findElement(By.name("cardNo"));
 	     WebElement amount = driver.findElement(By.name("amount"));
 	     WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));   
-	     custId.sendKeys("custId");
+	     custId.sendKeys("saga1234");
 	     cardNo.sendKeys("cardNo");
 	     amount.sendKeys("amount");
 	     button.click();
