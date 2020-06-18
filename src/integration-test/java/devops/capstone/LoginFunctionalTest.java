@@ -52,7 +52,7 @@ public class LoginFunctionalTest {
         email.sendKeys("sagar.bajaj@wipro.com");
         pass.sendKeys("1234");
         button.click();
-        assertTrue(driver.getPageSource().contains("SuccessPage"));
+        assertTrue(driver.getPageSource().contains("Payment-Gateway"));
 	}
 	
 	//@Test
@@ -84,7 +84,7 @@ public class LoginFunctionalTest {
         email.sendKeys("aa@gmail.com");
         custId.sendKeys("custId");
         button.click();
-        assertTrue(driver.getPageSource().contains("capstone"));
+        assertTrue(driver.getPageSource().contains("Utility Bill Payment"));
 	}
 	
 	@Test
@@ -98,7 +98,7 @@ public class LoginFunctionalTest {
 	     cardNo.sendKeys("cardNo");
 	     amount.sendKeys("amount");
 	     button.click();
-	     assertTrue(driver.getPageSource().contains("capstone"));
+	     assertTrue(driver.getPageSource().contains("SuccessPage"));
 	}
 	
 	@Test
@@ -112,7 +112,7 @@ public class LoginFunctionalTest {
         confirmpass.sendKeys("1234");
         email.sendKeys("sagar.bajaj@wipro.com");
         button.click();
-        assertTrue(driver.getPageSource().contains("capstone"));
+        assertTrue(driver.getPageSource().contains("Utility Bill Payment"));
 	}
 	
 }
