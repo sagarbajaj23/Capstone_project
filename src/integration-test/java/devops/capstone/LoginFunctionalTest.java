@@ -67,7 +67,7 @@ public class LoginFunctionalTest {
         assertTrue(driver.getPageSource().contains("Invalid username or password, Please try again with valid"));
 	}
 	
-	@Test
+	//@Test
 	public void registrationSuccess() {
         driver.get("http://localhost:6080/capstone/register.jsp");
         WebElement firstname = driver.findElement(By.name("firstname"));
