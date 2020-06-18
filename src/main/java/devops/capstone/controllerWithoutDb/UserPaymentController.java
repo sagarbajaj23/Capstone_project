@@ -37,8 +37,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 						rd.forward(request,response);
 						return;
 						}
-					  }
-					}
+					 
 					pout.write("Something Went Wrong !!! Please Try Again");
 					 
 					RequestDispatcher rd = request.getRequestDispatcher("/fail.jsp");
