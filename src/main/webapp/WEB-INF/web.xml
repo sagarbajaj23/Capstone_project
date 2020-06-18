@@ -26,7 +26,7 @@
 		<servlet-class>devops.capstone.controllerWithoutDb.UserPasswordController</servlet-class>
 	</servlet>
 	<servlet>
-                <servlet-name>PaymentGateway</servlet-name>
+                <servlet-name>Payment</servlet-name>
                 <servlet-class>devops.capstone.controllerWithoutDb.UserPaymentController</servlet-class>
         </servlet>
 
@@ -43,7 +43,7 @@
 		<url-pattern>/GetPassword</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-                <servlet-name>PaymentGateway</servlet-name>
-                <url-pattern>/PaymentGateway</url-pattern>
+                <servlet-name>Payment</servlet-name>
+                <url-pattern>/Payment</url-pattern>
         </servlet-mapping>
 </web-app>
