@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import devops.capstone.model.User;
 import devops.capstone.service.UserService;
 
-public class UserPaymentController {
+public class UserPaymentController extends HttpServlet{
 	
 public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
@@ -34,13 +34,15 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 						pout.write("Customer Id Exists...");
 					    if (cardNo!=null && cardNo.length()==12) {
 					    	pout.write("Valid Card details ..");
-					    }
+					    
 					      if(amount!=null && Integer.parseInt(amount)>0) {
 					    	  pout.write("Valid Amount details");
-					      }
+					      
 						RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
 						rd.forward(request,response);
 						return;
+						}
+					  }
 					}
 					pout.write("Something Went Wrong !!! Please Try Again");
 					 
