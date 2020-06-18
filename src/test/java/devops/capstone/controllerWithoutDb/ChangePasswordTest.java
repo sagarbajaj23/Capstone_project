@@ -30,7 +30,7 @@ public class ChangePasswordTest extends Mockito{
 
     @Test
     public void testChangePassword() throws Exception {
-        when(request.getParameter("email")).thenReturn("avinash.patel@wipro.com");
+        when(request.getParameter("email")).thenReturn("sagar.bajaj@wipro.com");
         when(request.getParameter("newpassword")).thenReturn("6789");
         when(request.getParameter("confirmpassword")).thenReturn("6789");
         when(request.getRequestDispatcher("index.jsp")).thenReturn(rd);            
