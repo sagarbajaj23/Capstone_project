@@ -69,7 +69,7 @@ public class LoginFunctionalTest {
 	
 	@Test
 	public void registrationSuccess() {
-        driver.get("http://localhost:6080/ILP_Bookstore/register.jsp");
+        driver.get("http://localhost:6080/capstone/register.jsp");
         WebElement firstname = driver.findElement(By.name("firstname"));
         WebElement lastname = driver.findElement(By.name("lastname"));
         WebElement confirmpass = driver.findElement(By.name("confirmpass"));
