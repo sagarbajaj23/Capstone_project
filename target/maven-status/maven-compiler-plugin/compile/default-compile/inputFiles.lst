@@ -1,7 +1,0 @@
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/service/UserService.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/db/UserDb.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/controllerWithoutDb/UserLoginController.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/controllerWithoutDb/UserPaymentController.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/controllerWithoutDb/UserRegisterController.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/model/User.java
-/home/osgdev/capstone_project/Capstone/src/main/java/devops/capstone/controllerWithoutDb/UserPasswordController.java
