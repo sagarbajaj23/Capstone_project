@@ -31,7 +31,7 @@ public class LoginTest extends Mockito{
     public void testLoginSuccess() throws Exception {
         when(request.getParameter("email")).thenReturn("sagar.bajaj@wipro.com");
         when(request.getParameter("password")).thenReturn("1234");
-        when(request.getRequestDispatcher("/success.jsp")).thenReturn(rd);            
+        when(request.getRequestDispatcher("/paymentGateway.jsp")).thenReturn(rd);            
         StringWriter stringWriter = new StringWriter();
         PrintWriter writer = new PrintWriter(stringWriter);
         when(response.getWriter()).thenReturn(writer);
