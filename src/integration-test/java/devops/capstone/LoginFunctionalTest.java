@@ -98,7 +98,7 @@ public class LoginFunctionalTest {
 	     cardNo.sendKeys("cardNo");
 	     amount.sendKeys("amount");
 	     button.click();
-	     assertTrue(driver.getPageSource().contains("SuccessPage"));
+	     assertTrue(driver.getPageSource().contains("Success"));
 	}
 	
 	@Test
