@@ -10,7 +10,7 @@ import devops.capstone.model.User;
 public class UserDb {
 	
 	public static String[][] users;
-	public static List<String>  usersData;
+	public static List<String> usersData= new ArrayList<String>;
 	
 	public static Map<String, User> userProfile=new HashMap<String,User>();
 	
