@@ -10,7 +10,7 @@ import devops.capstone.model.User;
 public class UserDb {
 	
 	public static String[][] users;
-	public static List<User>  usersData;
+	public static List<String>  usersData;
 	
 	public static Map<String, User> userProfile=new HashMap<String,User>();
 	
@@ -24,6 +24,10 @@ public class UserDb {
 		userProfile.put(u1.getEmail(), u1);
 		userProfile.put(u2.getEmail(), u2);
 		userProfile.put(u3.getEmail(), u3);
+		
+		usersData.add(u1.getCustomerId());
+		usersData.add(u2.getCustomerId());
+		usersData.add(u3.getCustomerId());
 		
 	}
 	

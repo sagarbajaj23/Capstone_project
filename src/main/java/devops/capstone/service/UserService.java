@@ -1,5 +1,6 @@
 package devops.capstone.service;
 
+import java.util.List;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
@@ -68,16 +69,14 @@ public class UserService {
 	public boolean checkCustomerId(User user) {
 		boolean isCustomerId=false;
 		if(user!=null && user.getCustomerId()!=null) {
-			 Set entrySet = userDb.userProfile.entrySet();
+			 List<String> custIdList = userDb.usersData;
 			 Iterator it = entrySet.iterator();
 			 
-			 while(it.hasNext()){
-				 Map.Entry u = (Map.Entry)it.next();
-					//System.out.println(u.getKey()+"\t"+u.getValue());
-				 if(u.getKey().equals(user.getCustomerId())){
-					 isCustomerId=true;
-				 }
-			 }	
+			for(String custId : custIdList){
+			 if(custId.equals(user.getCustomerId())){
+			  isCustomerId=true;
+				}
+			}
 		}
 		return isCustomerId;
 	}
