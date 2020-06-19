@@ -31,7 +31,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 				  User user=new User("","","","",custId);
 
 					PrintWriter pout= response.getWriter();
-					if (new UserService().checkCustomerId(user) && cardNo.length()==12 && Integer.parseInt(amount)>0) {
+					if (cardNo.length()==12 && Integer.parseInt(amount)>0) {
 						pout.write("Details are valid");
 						RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
 						rd.forward(request,response);
