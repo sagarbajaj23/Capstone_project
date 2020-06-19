@@ -70,8 +70,6 @@ public class UserService {
 		boolean isCustomerId=false;
 		if(user!=null && user.getCustomerId()!=null) {
 			 List<String> custIdList = userDb.usersData;
-			 Iterator it = entrySet.iterator();
-			 
 			for(String custId : custIdList){
 			 if(custId.equals(user.getCustomerId())){
 			  isCustomerId=true;
