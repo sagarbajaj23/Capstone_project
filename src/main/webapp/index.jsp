@@ -112,7 +112,40 @@ padding: 28px;
 margin: 0;
 }
 
+#nav {
+top: 0;
+left: 0;
+padding: 0 28px 0 28px;
+width: 1124px;
+height: 48px;
+line-height: 48px;
+margin: 0 0 28px 0;
+background: #007289;
+font-size: 0.9em;
+border-bottom: solid 1px #009FBF;
+border-top: solid 1px #1098B3;
+box-shadow: inset 0px -10px 40px 0px #005B6D;
+}
 
+#nav a {
+text-decoration: none;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+#nav ul {
+list-style: none;
+}
+
+#nav ul li {
+display: inline;
+padding: 0 12px 0 12px;
+}
+
+#nav ul li.first {
+
+padding-left: 0
+}
 
 
 /* Change styles for span and cancel button on extra small screens */
@@ -137,6 +170,16 @@ margin: 0;
 	</div>
 <img src="images/banner.jpg" alt="" />
 </div>
+  <div id="nav">
+  		<ul>
+  			<li class="first">
+  				<a href="forgotpassword.jsp">Forgot password?</a>
+  			</li>
+  			<li>
+  				<a href="register.jsp" id="register">New Registration ?</a>
+  			</li>
+  		</ul>						
+	  </div>
 	<form action="Login" method="post">
 	  <div class="container" >
 	    <label><b>Email</b></label>
@@ -146,10 +189,6 @@ margin: 0;
 	    <input type="password" placeholder="Enter Password" name="password" required>
 	        
 	    <button type="submit">Login</button>
-	  </div>
-	
-	  <div class="container" style="background-color:#f1f1f1">
-	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New User ?</a> </span>
 	  </div>
 </form>
 </div>
