@@ -107,7 +107,7 @@ public class LoginFunctionalTest {
         WebElement confirmpass = driver.findElement(By.name("confirmpassword"));
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("newpassword"));
-        WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));      
+        WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));      
         pass.sendKeys("1234");
         confirmpass.sendKeys("1234");
         email.sendKeys("sagar.bajaj@wipro.com");

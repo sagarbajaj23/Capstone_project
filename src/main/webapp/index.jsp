@@ -91,6 +91,11 @@ span.psw {
     padding-top: 16px;
 }
 
+#banner {
+position:relative;
+text-align: center;
+}
+
 #banner.captions {
 position: absolute;
 right: 0;
@@ -166,9 +171,9 @@ padding-left: 0
 </div>
 	<div id="banner">
 	<div class="captions">
-		<h2>Sign in</h2>
+	<img src="images/banner.jpg" alt="" />
+	<h2>Sign in</h2>
 	</div>
-<img src="images/banner.jpg" alt="" />
 </div>
   <div id="nav">
   		<ul>
