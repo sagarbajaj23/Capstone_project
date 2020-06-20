@@ -76,7 +76,7 @@ public class LoginFunctionalTest {
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("pass"));
         WebElement custId = driver.findElement(By.name("custId"));
-        WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));      
+        WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));      
         firstname.sendKeys("fname");
         lastname.sendKeys("lname");
         pass.sendKeys("1234");
