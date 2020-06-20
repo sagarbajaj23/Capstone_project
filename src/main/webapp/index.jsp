@@ -22,7 +22,7 @@ position: relative;
 padding: 28px;
 height: 50px;
 background: #0a7f99;
-color: #ffffff;
+color: #00FFFF;
 text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 box-shadow: inset 0px -40px 60px 0px #005B6D;
 border-bottom: solid 1px #003B47;
@@ -32,12 +32,12 @@ outer {
 z-index: 3;
 width: 1180px;
 margin: -10 60px 10 60px;
-background: #ffffff;
+background: #00FFFF;
 box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
 }
 
 button {
-    background-color:#ffffff ;
+    background-color:#00FFFF ;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -70,7 +70,7 @@ line-height: 138px;
 
 logo a {
 text-decoration: none;
-color: #ffffff;
+color: #00FFFF;
 }
 
 logo h1 {
@@ -100,14 +100,14 @@ text-shadow: 2px 2px 0px rgba(0,0,0,1.0);
 
 banner.captions h2 {
 background: rgba(0,0,0,0.7);
-color: #ffffff;
+color: #00FFFF;
 padding: 28px;
 margin: 0;
 }
 
 banner.captions h3 {
 background: rgba(10,127,153,0.8);
-color: #ffffff;
+color: #00FFFF;
 padding: 28px;
 margin: 0;
 }
