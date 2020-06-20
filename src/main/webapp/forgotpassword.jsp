@@ -150,9 +150,7 @@ span.psw {
 	    <input type="password" placeholder="Enter Password" name="newpassword" required>
 	    
 	    <label><b>Confirm Password</b></label>
-	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required>
-	    
-	        
+	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required> 
 	    <button type="submit">Submit</button>
 	  </div>
 </form>

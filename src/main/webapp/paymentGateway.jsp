@@ -150,8 +150,7 @@ span.psw {
 	    
 	    
 	    <label><b>Enter Amount</b></label>
-	    <input type="text" placeholder="Enter Amount" name="amount" required>
-	        
+	    <input type="text" placeholder="Enter Amount" name="amount" required>      
 	    <button type="submit">Confirm Payment</button>
 	  </div>
 </form>
