@@ -177,7 +177,6 @@ padding-left: 0
 	<div id="banner">
 	<div class="captions">
 	<img src="images/banner.jpg" alt="" />
-	<div class="bottom-right">Sign in</div>
 	</div>
 </div>
   <div id="nav">
