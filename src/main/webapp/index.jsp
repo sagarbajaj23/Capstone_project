@@ -17,7 +17,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-header {
+#header {
 position: relative;
 padding: 28px;
 height: 50px;
@@ -28,7 +28,7 @@ box-shadow: inset 0px -40px 60px 0px #005B6D;
 border-bottom: solid 1px #003B47;
 }
 
-outer {
+#outer {
 z-index: 3;
 width: 1180px;
 margin: -10 60px 10 60px;
@@ -55,12 +55,12 @@ letter-spacing: -1px;
 h2,h3,h4 {
 margin-bottom: 1.5em;
 font-family: Arvo, serif;
-color: #008080;
+color: #ffffff;
 }
 
 
 
-logo {
+#logo {
 position: absolute;
 bottom: 0;
 left: 28px;
@@ -68,14 +68,15 @@ height: 138px;
 line-height: 138px;
 }
 
-logo a {
+#logo a {
 text-decoration: none;
 color: #008080;
 }
 
-logo h1 {
+#logo h1 {
 font-size: 2.25em;
 font-family: Arvo, serif;
+background:#008080
 }
 
 button:hover {
@@ -91,22 +92,22 @@ span.psw {
     padding-top: 16px;
 }
 
-banner.captions {
+#banner.captions {
 position: absolute;
 right: 0;
 top: 105px;
 text-shadow: 2px 2px 0px rgba(0,0,0,1.0);
 }
 
-banner.captions h2 {
-background-color:#008080 ;
+#banner.captions h2 {
+background-color:#008080;
 background: rgba(0,0,0,0.7);
 color: #008080;
 padding: 28px;
 margin: 0;
 }
 
-banner.captions h3 {
+#banner.captions h3 {
 background: rgba(10,127,153,0.8);
 color: #008080;
 padding: 28px;
