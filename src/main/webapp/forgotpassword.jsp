@@ -129,18 +129,7 @@ span.psw {
 </style>
 </head>
 <body>
-<div id="outer">
-<div id="header">
-	<div id="logo">
-		<h1>ForgotPassword</h1>	
-	</div>
-	<div id="banner">
-	<div class="captions">
-		<h2>Password-Reset</h2>
-	</div>
-<img src="images/banner.jpg" alt="" />
-</div>
-</div>
+	<h1>ForgotPassword</h1>	
 	<form action="GetPassword" method="post">
 	  <div class="container">
 	    <label><b>Email</b></label>
@@ -150,10 +139,11 @@ span.psw {
 	    <input type="password" placeholder="Enter Password" name="newpassword" required>
 	    
 	    <label><b>Confirm Password</b></label>
-	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required> 
+	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required>
+	    
+	        
 	    <button type="submit">Submit</button>
 	  </div>
 </form>
-</div>
 </body>
 </html>

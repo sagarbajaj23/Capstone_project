@@ -128,18 +128,7 @@ span.psw {
 </style>
 </head>
 <body>
-<div id="outer">
-<div id="header">
-	<div id="logo">
-		<h1>Payment-GateWay</h1>
-	</div>
-	<div id="banner">
-	<div class="captions">
-		<h2>Payment</h2>
-	</div>
-<img src="images/banner.jpg" alt="" />
-</div>
-</div>
+<h1>Payment-GateWay</h1>
 	<form action="Payment" method="post">
 	  <div class="container" >
 	    <label><b>CustomerID</b></label>
@@ -154,6 +143,5 @@ span.psw {
 	    <button type="submit">Confirm Payment</button>
 	  </div>
 </form>
-</div>
 </body>
 </html>
