@@ -91,6 +91,12 @@ span.psw {
     padding-top: 16px;
 }
 
+#banner {
+position: relative;
+width: 1180px;
+height: 300px;
+}
+
 #banner.captions {
 position: absolute;
 right: 0;

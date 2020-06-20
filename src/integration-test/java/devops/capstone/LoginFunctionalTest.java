@@ -76,7 +76,7 @@ public class LoginFunctionalTest {
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("pass"));
         WebElement custId = driver.findElement(By.name("custId"));
-        WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));      
+        WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));      
         firstname.sendKeys("fname");
         lastname.sendKeys("lname");
         pass.sendKeys("1234");
@@ -93,7 +93,7 @@ public class LoginFunctionalTest {
 		 WebElement custId = driver.findElement(By.name("custId"));
 	     WebElement cardNo = driver.findElement(By.name("cardNo"));
 	     WebElement amount = driver.findElement(By.name("amount"));
-	     WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));   
+	     WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));   
 	     custId.sendKeys("saga1234");
 	     cardNo.sendKeys("123456789123");
 	     amount.sendKeys("2400");
@@ -107,7 +107,7 @@ public class LoginFunctionalTest {
         WebElement confirmpass = driver.findElement(By.name("confirmpassword"));
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("newpassword"));
-        WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));      
+        WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));      
         pass.sendKeys("1234");
         confirmpass.sendKeys("1234");
         email.sendKeys("sagar.bajaj@wipro.com");
