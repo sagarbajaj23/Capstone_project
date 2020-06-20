@@ -21,7 +21,7 @@ input[type=text], input[type=password] {
 position: relative;
 padding: 28px;
 height: 50px;
-background: #008080;
+background: #0a7f99;
 color: #ffffff;
 text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 box-shadow: inset 0px -40px 60px 0px #005B6D;
@@ -32,7 +32,7 @@ border-bottom: solid 1px #003B47;
 z-index: 3;
 width: 1180px;
 margin: -10 60px 10 60px;
-background: #008080;
+background: #ffffff;
 box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
 }
 
@@ -55,7 +55,7 @@ letter-spacing: -1px;
 h2,h3,h4 {
 margin-bottom: 1.5em;
 font-family: Arvo, serif;
-color: #ffffff;
+color: #000000;
 }
 
 
@@ -76,7 +76,6 @@ color: #008080;
 #logo h1 {
 font-size: 2.25em;
 font-family: Arvo, serif;
-background:#008080
 }
 
 button:hover {
@@ -100,7 +99,6 @@ text-shadow: 2px 2px 0px rgba(0,0,0,1.0);
 }
 
 #banner.captions h2 {
-background-color:#008080;
 background: rgba(0,0,0,0.7);
 color: #008080;
 padding: 28px;
