@@ -48,7 +48,7 @@ public class LoginFunctionalTest {
         driver.get("http://localhost:6080/capstone");
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("password"));
-        WebElement button = driver.findElement(By.xpath("/html/body/div/form/button"));         
+        WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));         
         email.sendKeys("sagar.bajaj@wipro.com");
         pass.sendKeys("1234");
         button.click();
