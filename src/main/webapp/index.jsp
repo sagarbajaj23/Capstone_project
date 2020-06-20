@@ -59,7 +59,6 @@ color: #000000;
 }
 
 
-
 #logo {
 position: absolute;
 bottom: 0;
@@ -101,6 +100,12 @@ position: absolute;
 right: 0;
 top: 105px;
 text-shadow: 2px 2px 0px rgba(0,0,0,1.0);
+}
+
+#banner.bottom-right {
+position: absolute;
+bottom: 8px;
+right: 16px;
 }
 
 #banner.captions h2 {
@@ -172,7 +177,7 @@ padding-left: 0
 	<div id="banner">
 	<div class="captions">
 	<img src="images/banner.jpg" alt="" />
-	<h2>Sign in</h2>
+	<div class="bottom-right">Sign in</div>
 	</div>
 </div>
   <div id="nav">
