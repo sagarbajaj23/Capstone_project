@@ -32,7 +32,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 
 					PrintWriter pout= response.getWriter();
 					if ((new UserService().checkCustomerId(user)) && (cardNo.length()==12) && (Integer.parseInt(amount)>0)) {
-						pout.write("Details are valid");
+						pout.write("Payment Successful..!!");
 						RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
 						rd.forward(request,response);
 						return;
