@@ -176,7 +176,7 @@ padding-left: 0
   				<a href="forgotpassword.jsp">Forgot password?</a>
   			</li>
   			<li>
-  				<a href="register.jsp" id="register">New Registration ?</a>
+  				<a href="register.jsp" id="register">New Registration?</a>
   			</li>
   		</ul>						
 	  </div>

@@ -93,7 +93,7 @@ public class LoginFunctionalTest {
 		 WebElement custId = driver.findElement(By.name("custId"));
 	     WebElement cardNo = driver.findElement(By.name("cardNo"));
 	     WebElement amount = driver.findElement(By.name("amount"));
-	     WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));   
+	     WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));   
 	     custId.sendKeys("saga1234");
 	     cardNo.sendKeys("123456789123");
 	     amount.sendKeys("2400");

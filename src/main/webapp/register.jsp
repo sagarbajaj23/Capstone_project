@@ -79,12 +79,6 @@ font-size: 2.25em;
 font-family: Arvo, serif;
 }
 
-#banner {
-position: relative;
-width: 1180px;
-height: 300px;
-}
-
 #banner.captions {
 position: absolute;
 right: 0;
@@ -135,12 +129,6 @@ span.psw {
 	<div id="logo">
 		<h1>Registration Form</h1>
 	</div>
-	<div id="banner">
-	<div class="captions">
-		<h2>Registration</h2>
-	</div>
-<img src="images/banner.jpg" alt="" />
-</div>
 </div>	
 	<form action="Register" method="post">
 	  <div class="container">
