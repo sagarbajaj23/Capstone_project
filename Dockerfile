@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-RUN yum install -y wget
+RUN yum install -y yum-plugin-ovl wget
 WORKDIR /opt/java
 ADD wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/11+28/55eed80b163941c8885ad9298e6d786a/jdk-11_linux-x64_bin.tar.gz /opt/java
 ENV JAVA_HOME /opt/java/jdk-12.0.1/
