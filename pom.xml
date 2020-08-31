@@ -113,9 +113,6 @@
 				<version>2.18.1</version>
 				<configuration>
 					<excludedGroups>devops.capstone.IntegrationTest</excludedGroups>
-					<suiteXmlFiles>
-                        			<suiteXmlFile>TestNG.xml</suiteXmlFile>
-                        		</suiteXmlFiles>
 				</configuration>
 
 			</plugin>
