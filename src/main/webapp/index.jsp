@@ -191,7 +191,7 @@ padding-left: 0
 	  </div>
 	<form action="Login" method="post">
 	  <div class="container" >
-	    <label><b>Email</b></label>
+	    <label><b>e-mail</b></label>
 	    <input type="text" placeholder="Enter Email" name="email" required>
 	
 	    <label><b>Password</b></label>
