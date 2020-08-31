@@ -43,7 +43,7 @@
             <version>3.3</version>
             <scope>test</scope>
     </dependency>
-
+	    
 		
 <!-- 		<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
@@ -62,7 +62,12 @@
 		    <artifactId>mockito-all</artifactId>
 		    <version>1.9.5</version>
 		    <scope>test</scope>
-		</dependency>
+	    </dependency>
+	<dependency>
+     	     <groupId>io.qameta.allure</groupId>
+     	     <artifactId>allure-testng</artifactId>
+	     <version>2.12.0</version>
+	</dependency>
 		
   </dependencies>
   <build>
@@ -108,7 +113,20 @@
 				<version>2.18.1</version>
 				<configuration>
 					<excludedGroups>devops.capstone.IntegrationTest</excludedGroups>
+					<suiteXmlFiles>
+                        			<suiteXmlFile>TestNG.xml</suiteXmlFile>
+                        		</suiteXmlFiles>
+                        		<argLine>
+                        			-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                        		</argLine>
 				</configuration>
+				<dependencies>
+                    			<dependency>
+                        			<groupId>org.aspectj</groupId>
+                        			<artifactId>aspectjweaver</artifactId>
+                        			<version>${aspectj.version}</version>
+                    			</dependency>
+                		</dependencies>
 			</plugin>
 
 
