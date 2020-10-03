@@ -49,7 +49,7 @@ public class LoginFunctionalTest {
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("password"));
         WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));         
-        email.sendKeys("sagar.bajaj@wipro.com");
+        email.sendKeys("sagarbajaj113@gmail.com");
         pass.sendKeys("1234");
         button.click();
         assertTrue(driver.getPageSource().contains("Payment-Gateway"));
@@ -61,7 +61,7 @@ public class LoginFunctionalTest {
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("password"));
         WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));         
-        email.sendKeys("sagar.bajaj@wipro.com");
+        email.sendKeys("sagarbajaj113@gmail.com");
         pass.sendKeys("1234566666666");
         button.click();
         assertTrue(driver.getPageSource().contains("Invalid username or password, Please try again with valid"));
@@ -110,7 +110,7 @@ public class LoginFunctionalTest {
         WebElement button = driver.findElement(By.xpath("/html/body/div/form/div/button"));      
         pass.sendKeys("1234");
         confirmpass.sendKeys("1234");
-        email.sendKeys("sagar.bajaj@wipro.com");
+        email.sendKeys("sagarbajaj113@gmail.com");
         button.click();
         assertTrue(driver.getPageSource().contains("Utility Bill Payment"));
 	}
